@@ -1,0 +1,5 @@
+SELECT * FROM transaksi WHERE transaksi.tgl_bayar BETWEEN '2020-08-01' and '2020-08-09' JOIN warga ON transaksi.id_warga
+= warga.id_warga
+
+SELECT * FROM transaksi JOIN warga ON transaksi.id_warga = warga.id_warga WHERE transaksi.tgl_bayar BETWEEN '2020-08-01'
+and '2020-08-09'
